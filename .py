@@ -1,9 +1,12 @@
-number_grade = int(input("Enter your grade here"))
+# Readme Test
+Hello World! **This is bolded** and *This is italicized*
+~~This has a strikethrough~~
 
-if number_grade > 90:
-    letter_grade = "A"
-    
-else:
-    letter_grade = "Not A"
+This is a code block:
+```
+git add readme.MD
+git commit -m "Update readme.md"
+git push
+```
 
-print("Your grade is", letter_grade)
+This readme was built using [ReadMe Guide](https://docs.github.com/).
